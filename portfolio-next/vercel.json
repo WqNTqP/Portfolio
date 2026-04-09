@@ -3,10 +3,5 @@
   "outputDirectory": ".next",
   "env": {
     "NEXT_PUBLIC_VERCEL_ENV": "production"
-  },
-  "functions": {
-    "pages/**/*.{js,jsx,ts,tsx}": {
-      "maxDuration": 60
-    }
   }
 }
